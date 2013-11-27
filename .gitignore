@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+*.swp
+*.swo
+dist
+django_mce_spellcheck.egg-info
+build
