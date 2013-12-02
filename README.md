@@ -65,5 +65,6 @@ The app includes a copy of the spellcheck plugin from https://github.com/aljosa/
 ## AUTHORS
 
 [seanodonnell](https://github.com/seanodonnell/)
+
 backend code based on based on https://github.com/aljosa/django-tinymce/blob/master/tinymce/views.py
 
