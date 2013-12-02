@@ -6,8 +6,8 @@ from setuptools import setup, find_packages
 version = '0.1'
 
 setup(name='django_mce_spellcheck',
-    description='Django app that provides a backend for the tinymce spellcheck plugin. Particularly useful for Mezzanine'
-    long_description='Django app that provides a backend for the tinymce spellcheck plugin. Particularly useful for Mezzanine'
+    description='Django app that provides a backend for the tinymce spellcheck plugin. Particularly useful for Mezzanine',
+    long_description='Django app that provides a backend for the tinymce spellcheck plugin. Particularly useful for Mezzanine',
     version=version,
     author = "Sean O\'Donnell",
     author_email = "sean@odonnell.nu",
@@ -23,8 +23,6 @@ setup(name='django_mce_spellcheck',
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
     ],
-    description='',
-    long_description='',
     include_package_data=True,
     zip_safe=False,
 )
