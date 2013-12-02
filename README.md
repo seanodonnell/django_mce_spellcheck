@@ -36,7 +36,7 @@ Finally add the spellchecker view address, if you are using the suggested urls.p
 
 The spellchecker plugin can cause some forms to malfunction when the spellcheck is active. In order to fix this, I have created a small snippet, which automatically turns off the spellcheck plugin in all active tinymce instances on the page, whenever a submit button is clicked. This script assumes that jquery is available. I put this code at the bottom of my tinymce_setup.js file. 
 
-This snippet can be downloaded from  , but here is the source
+This snippet can be downloaded from  https://raw.github.com/seanodonnell/django_mce_spellcheck/master/django_mce_spellcheck/static/js/spellcheck_fix.js, but here is the source
 
     $(document).ready(function(){
     $('input[type="submit"]').click(function(){
