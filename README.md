@@ -2,7 +2,7 @@
 
 ## Description
 
-[Django](http://www.djangoproject.com) app that provides a backend for the  [tinymce](http://www.tinymce.com/) spellecheck plugin that allows you to spellcheck your documents. It is configured to work by default with a [Mezzanine](https://github.com/stephenmcd/mezzanine) installation. Spell checking on the backend is provided by [enchant](http://pythonhosted.org/pyenchant/). 
+[Django](http://www.djangoproject.com) app that provides a backend for the  [tinymce](http://www.tinymce.com/) spellcheck plugin that allows you to spellcheck your documents. It is configured to work by default with a [Mezzanine](https://github.com/stephenmcd/mezzanine) installation. Spell checking on the backend is provided by [enchant](http://pythonhosted.org/pyenchant/). 
 
 ## Screenshots
 
