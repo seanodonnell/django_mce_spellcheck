@@ -3,7 +3,7 @@ import sys
 
 from setuptools import setup, find_packages
 
-version = '0.1'
+version = '0.1.1'
 
 setup(name='django_mce_spellcheck',
     description='Django app that provides a backend for the tinymce spellcheck plugin. Particularly useful for Mezzanine',
@@ -22,6 +22,9 @@ setup(name='django_mce_spellcheck',
         "Framework :: Django",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
+    ],
+    install_requires=[
+        'pyenchant'
     ],
     include_package_data=True,
     zip_safe=False,
