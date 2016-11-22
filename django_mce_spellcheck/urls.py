@@ -1,5 +1,7 @@
-from django.conf.urls import url, patterns 
+from django.conf.urls import url
 
-urlpatterns = patterns('django_mce_spellcheck.views',
-    url(r'^$', 'spellcheck', name='spellcheck'),
-)
+from django_mce_spellcheck import views
+
+urlpatterns = [
+    url(r'^$', views.spellcheck, name='spellcheck'),
+]
